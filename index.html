@@ -20,7 +20,7 @@
     nav a{border:1px solid var(--line);border-radius:100px;padding:7px 17px;text-decoration:none;color:var(--text)}
     nav a:hover{border-color:var(--accent)}
     section{margin-top:20px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:23px}
-    a{color:var(--accent);overflow-wrap:anywhere}ul{padding-left:23px}
+    a{color:var(--accent);overflow-wrap:anywhere}ul,ol{padding-left:23px}
     footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
     @media(max-width:600px){section{padding:18px}}
   </style>
@@ -31,8 +31,8 @@
     <div class="brand">HACO GAMES</div>
     <h1>Space Empire / Idle Empire</h1>
     <p class="lead">Adatvédelmi tájékoztató · Privacy Policy</p>
-    <p class="meta">Android package: <strong>hu.idleempire.game</strong> · Frissítve / Updated: <strong>2026. október 27. / October 27, 2026</strong></p>
-    <nav aria-label="Language navigation"><a href="#magyar">🇭🇺 Magyar</a><a href="#english">🇬🇧 English</a><a href="mailto:hacogames.support@gmail.com">✉ Kapcsolat / Contact</a></nav>
+    <p class="meta">Android package: <strong>hu.idleempire.game</strong> · Frissítve / Updated: <strong>2026. október 28. / October 28, 2026</strong></p>
+    <nav aria-label="Language navigation"><a href="#magyar">🇭🇺 Magyar</a><a href="#english">🇬🇧 English</a><a href="#fioktorles">Fióktörlés / Account deletion</a><a href="mailto:hacogames.support@gmail.com">✉ Kapcsolat / Contact</a></nav>
   </header>
 
   <main>
@@ -69,6 +69,20 @@
       <section><h2>7. Változások</h2>
         <p>Az adatkezelés vagy az alkalmazás funkcióinak változásakor ezt a tájékoztatót frissíthetjük. Az aktuális változat mindig ezen az oldalon érhető el.</p>
       </section>
+      <section id="fioktorles" aria-labelledby="fioktorles-cim">
+        <h2 id="fioktorles-cim">8. Fióktörlés és kapcsolódó adatok törlése</h2>
+        <p><strong>Idle Empire / Space Empire – Haco Games.</strong> A játékos kérheti játékfiókja és a Haco Games által kezelt, hozzá kapcsolódó személyes adatai törlését.</p>
+        <p><strong>Így kérheted a törlést:</strong></p>
+        <ol>
+          <li>Küldj e-mailt a <a href="mailto:hacogames.support@gmail.com?subject=Idle%20Empire%20-%20Fioktorlesi%20kerelem">hacogames.support@gmail.com</a> címre.</li>
+          <li>A tárgy legyen: <strong>Idle Empire – Fióktörlési kérelem</strong>.</li>
+          <li>Írd meg, hogy a teljes játékfiókod és a kapcsolódó adataid törlését kéred. Ha van a játékhoz kapcsolt e-mail-címed, azt is add meg.</li>
+          <li>A fiókhoz való jogosultságot szükség esetén ellenőrizzük, majd feldolgozzuk a kérelmet. Jelszót vagy bejelentkezési tokent ne küldj.</li>
+        </ol>
+        <p><strong>A törlési kérelem érintheti:</strong> a Firebase Authentication-fiókot és azonosítóit, a Cloud Firestore-ban tárolt felhőmentést és játékállást, a fiókhoz kapcsolt ranglistaadatokat, valamint a Haco Games saját rendszerében tárolt, fiókhoz köthető játék- és jogosultsági adatokat.</p>
+        <p><strong>Esetleg megőrzött adatok:</strong> bizonyos vásárlási és tranzakciós nyilvántartások, ha jogszabályi kötelezettség, elszámolás, visszaélés-megelőzés vagy vásárlási vita kezelése miatt szükséges. Ezeket csak az adott célhoz szükséges, illetve jogszabályban előírt ideig őrizzük meg, majd töröljük vagy anonimizáljuk. A konkrét megőrzési idő az adat és a vonatkozó jogi kötelezettség függvénye; kérésre tájékoztatást adunk róla.</p>
+        <p>A készüléken tárolt helyi adatokat az alkalmazás adatainak törlésével távolíthatod el. A fióktörlés önmagában nem jelent automatikus Google Play-visszatérítést, és nem feltétlenül törli a Google által önállóan kezelt tranzakciós adatokat.</p>
+      </section>
     </div>
 
     <div id="english" lang="en">
@@ -103,6 +117,20 @@
       </section>
       <section><h2>7. Updates</h2>
         <p>We may update this policy when the app's features or data practices change. The latest version will be available on this page.</p>
+      </section>
+      <section id="account-deletion" aria-labelledby="account-deletion-title">
+        <h2 id="account-deletion-title">8. Account deletion and associated data</h2>
+        <p><strong>Idle Empire / Space Empire – Haco Games.</strong> Players may request deletion of their game account and associated personal data controlled by Haco Games.</p>
+        <p><strong>How to request deletion:</strong></p>
+        <ol>
+          <li>Email <a href="mailto:hacogames.support@gmail.com?subject=Idle%20Empire%20-%20Account%20Deletion%20Request">hacogames.support@gmail.com</a>.</li>
+          <li>Use the subject: <strong>Idle Empire – Account Deletion Request</strong>.</li>
+          <li>State that you want your full game account and associated data deleted. Include your game account email address, if applicable.</li>
+          <li>We may verify account ownership before processing the request. Do not send passwords or authentication tokens.</li>
+        </ol>
+        <p><strong>Data covered by the request:</strong> Firebase Authentication account and identifiers, Cloud Firestore cloud saves and game progress, account-linked leaderboard entries, and account-associated game and entitlement data stored in Haco Games systems.</p>
+        <p><strong>Data that may be retained:</strong> certain purchase and transaction records where necessary for legal obligations, accounting, fraud prevention, or purchase disputes. Such records are retained only for the period required by the applicable purpose or law, then deleted or anonymized. Exact retention periods depend on the data and applicable legal obligation; details are available on request.</p>
+        <p>You can remove locally stored game data by clearing the app's data on your device. Account deletion does not automatically refund Google Play purchases or necessarily remove transaction records independently held by Google.</p>
       </section>
     </div>
   </main>
